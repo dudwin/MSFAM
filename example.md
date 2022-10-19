@@ -17,7 +17,7 @@ counts from ovarian cancer tumors. The same cells appear in both
 studies.
 
 ``` r
-dat <- get_incomplete_data(num_cols_incomplete=5, 
+dat <- get_incomplete_data(num_cols_incomplete = 5, 
                            prop_col_incomplete = 0.2, 
                            missingness_type = "MCAR")  # or "MNAR"
 S <- length(dat)  # number of studies
